@@ -5,6 +5,10 @@ export const LinkTo = styled(Link, {
     width: 'fit-content',
     height: 'fit-content',
     textDecoration: 'none',
+    display: 'flex',
+    justifyContent: 'center',
+    alignItems: 'center',
+    gap: '5px',
     variants: {
         color: {
             color1: {
@@ -133,8 +137,8 @@ export const LinkTo = styled(Link, {
                 py: '10px'
             }
         },
-        textDecoration:{
-            true:{
+        textDecoration: {
+            true: {
                 textDecoration: 'underline',
             }
         }

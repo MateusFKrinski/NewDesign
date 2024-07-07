@@ -47,7 +47,7 @@ const Grid = styled('div', {
         height: '100%',
         width: '100%',
         display: 'grid',
-        gridTemplateRows: '200px 1fr',
+        gridTemplateRows: '225px 1fr',
         padding: '0',
         margin: '0',
     },
@@ -62,9 +62,8 @@ const GridTop = styled('div', {
 })
 
 const Refine = styled('div', {
-    weight: '100%',
-    px: '30px',
-    py: '20px'
+    px: '20px',
+    py: '15px'
 })
 
 const GridBottom = styled('div', {
