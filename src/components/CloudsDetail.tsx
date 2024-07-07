@@ -1,4 +1,4 @@
-import {styled} from "@stitches/react";
+import {styled} from "../../stitches.config.ts";
 
 export function CloudsDetail() {
     return <>
@@ -52,6 +52,8 @@ export function CloudsDetail() {
     </>
 }
 
-const CloudsSvgStyle = styled('svg',{
+const CloudsSvgStyle = styled('svg', {
     fill: '#FFFFFF',
+    height: 'fit-content',
+    linearGradient: 'transparent 25%, #FFFFFF'
 })
